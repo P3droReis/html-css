@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+header > h1{
+    background-color: rgb(34, 34, 255);
+    margin-top: 0px;
+    padding: 20px;
+    
+}
+ 
+nav{
+    text-align: center;
+    padding: 20px;
+}
+nav > a{
+    color: rgb(34, 34, 255);
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(44, 40, 40);
+    margin: 0px;
+    
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#conteudo > h2 {
+    color: rgb(34, 34, 255);
+}
+
+div > h2{
+    text-align: center;
+       
+}
+
+.pal{
+    background-color: rgb(23, 188, 23);
+    padding: 15px;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ 
+.fla{
+    background-color: rgb(253, 27, 27);
+    padding: 15px;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.corin{
+    background-color: gray;
+    padding: 15px;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sao{
+    background-color: rgb(253, 27, 27);
+    padding: 15px;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font{
+    text-align: right;
+    height: 8px;
+    
+}
+
+
+.font > a {
+    text-decoration: none;
+    color: black;
+}
+
+.font > a:hover{
+    text-decoration: underline;
+    color: rgb(34, 34, 255);
+}
+
+
+footer{
+    background-color: rgb(34, 34, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 45px;
+    font-weight: bolder;
+    text-align: right
+}
+ 
+

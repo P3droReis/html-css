@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @font-face {
+            font-family: 'moguine';
+            src: url(MoguineSerif_PERSONAL_USE_ONLY.otf)format('opentype');
+        }
+        body{
+            font-family:  Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /* lighter normal bold bolder*/
+        }
+        h1{
+            /* Shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'moguine', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            
+            font: italic normal 3em 'moguine';
+        }
+        h2{
+            font: bolder 3em 'arial', sans-serif;
+        }
+        p{
+            text-align: justify;
+        } 
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque inventore error incidunt quidem vel nemo possimus, natus sequi laborum nam, sint aut blanditiis, eligendi harum consequatur sed magni quo ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempore id nam distinctio inventore numquam, dolore voluptas? Reprehenderit sequi impedit sunt cumque corrupti neque aliquid odit provident, nostrum voluptas et Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> <p> Cum ipsum maiores itaque soluta optio, placeat, magnam minima eveniet ea reiciendis enim aspernatur consequatur ducimus quibusdam odio? Quibusdam eligendi maxime ducimus! </p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, recusandae? Laborum aperiam a dicta rerum et voluptate, accusantium labore vitae ullam, dolore praesentium minima sapiente cupiditate vero est nam doloremque!</p>
+</body>
+</html>

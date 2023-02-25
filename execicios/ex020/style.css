@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color:blue;
+    font-weight: bold;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: red;
+    font-size: 2em;
+    font-style: italic;
+    text-decoration: underline;
+}
+ 
+a:active{
+    color: gray;
+}
+
+a::before{
+    content: ' link ↞ ';
+    color: gray;
+}
+a::after{
+    content: ' ↠ link';
+    color: gray;
+}
+
+
+.titulos{
+    background-color: green;
+    color: white;
+}
+
+.lista02{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ 
+.brasil::after{
+    content:  ' ✮✮✮✮✮✮✮✮✮✮';
+    color: gold;
+    font-size: 25px
+}
+
+.liberta::after{
+    content:  ' ✮✮✮';
+    color: gold;
+    font-size: 25px
+}
+
+.copa::after{
+    content:  ' ✮✮✮✮';
+    color: gold;
+    font-size: 25px
+}
