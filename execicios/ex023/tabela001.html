@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+         }
+
+         table {
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            border: 5px solid green;
+         }
+
+         .direita {
+            text-align: right;
+         }
+
+         .esquerda {
+            text-align: left;
+         }
+
+         .emcima {
+            vertical-align: top;
+         }
+
+         .abaixo {
+            vertical-align: bottom;
+         }
+
+         .destaque {
+            background-color: red;
+         }
+
+         .destaque1 {
+            background-color: blue;
+         }
+
+         td {
+            border: 1px solid blue;
+            padding: 5px;
+            text-align: center; /* Alinhamento horizontal*/
+            vertical-align: middle; /* Alinhamento vertical*/
+         }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--
+        Hieraquia de tabelas (simples)
+        TABLE = tabela
+            TABLE ROWM = linha de tabela
+                TABLE HEADER = cabeçalho de tabela
+                    TABLE DATA = dados de tabela 
+    -->
+
+    <table>
+        <tr> <!-- Primeira linha-->
+            <td class="esquerda">A1</td>
+            <td class="emcima, destaque">B1</td>
+            <td class="direita">C1</td>
+        </tr>
+        <tr class="linha2"> <!-- Segunda linha-->
+            <td class="destaque">A2</td>
+            <td class="destaque1">B2</td>
+            <td class="destaque">C2</td>
+        </tr>
+        <tr> <!-- Terceira linha-->
+            <td class="destaque">A3</td>
+            <td class="destaque1">B3</td>
+            <td class="destaque">C3</td>
+        </tr>
+        <tr> <!-- Quarta linha-->
+            <td class="esquerda">A4</td>
+            <td class="abaixo, destaque">B4</td>
+            <td class="direita">C4</td>
+        </tr>
+    </table>
+
+</body>
+</html>
