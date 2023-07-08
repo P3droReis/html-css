@@ -4,32 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
     <title>Media Query</title>
 </head>
 <body>
     <header>
-        <h1>Meu Site</h1>
-        <menu>
+        <h1>Futebol all</h1>
+        <span class="material-symbols-outlined" onclick="clickMenu()">
+            Menu
+            </span>
+        <menu id="itens">
            <ul>
-                <li><a href="#"> Opção 01 </a></li>
-                <li><a href="#"> Opção 02 </a></li>
-                <li><a href="#"> Opção 03 </a></li>
-                <li><a href="#"> Opção 04 </a></li>
-                <li><a href="#"> Opção 05 </a></li>
+                <li><a href="#"> Europa </a></li>
+                <li><a href="#"> Asia </a></li>
+                <li><a href="#"> Oceania </a></li>
+                <li><a href="#"> America do Sul </a></li>
+                <li><a href="#"> America Central</a></li>
+                <li><a href="#"> Africa </a></li>
            </ul> 
         </menu>
     </header>
     <main>
         <article>
-            <h2>Testando Media Queries</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam soluta cum, aspernatur aliquid asperiores beatae dolorem, nisi, voluptatum nemo quas amet cupiditate sed qui recusandae. A officiis doloribus vitae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ratione numquam aut temporibus aperiam impedit iure illo quo provident asperiores debitis dolorum cum, facilis fuga tempora delectus. Doloremque, exercitationem dicta!</p>
+            <h2>Os 7 Principais Campeões Nacionais da Europa</h2>
+            <p>A Juventus chegou a impressionante marca de nove taças conquistadas consecutivamente. O lendário goleiro Buffon soma dez títulos nacionais. O time de Turim sozinho (36 títulos) tem o dobro do que já ganharam os rivais Milan e Internazionale (18 cada). Na Itália, Milan e Inter de Milão não conseguem mais fazer frente à Juve, de Cristiano Ronaldo.</p>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus quibusdam mollitia sit corrupti et, alias, ea sint ex commodi doloremque, eveniet facere dolorum odio? Perferendis sit quo ut totam eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur adipisci eligendi facere quaerat aliquam molestias deserunt voluptate, repudiandae, deleniti cum consequatur accusantium error atque magni veritatis quisquam voluptatum aut. Voluptates.</p>
+            <p>Na Alemanha, o domínio do Bayern é ainda mais assustador. São oito campeonatos seguidos na conta do time de Munique, que, desde a criação da Bundesliga, em 1968/1969, se sagrou campeão em 29 temporadas. São 30 conquistas no total, contra apenas nove do Nuremberg e oito do Borussia Dortmund, seu principal rival nos últimos tempos.</p>
 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias fuga id voluptatum est culpa quos adipisci quod, error facilis ipsa mollitia itaque! Ducimus placeat temporibus ab assumenda pariatur ipsa blanditiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat qui ducimus consectetur quibusdam nostrum architecto earum harum adipisci porro placeat eligendi quas nulla libero delectus, quod dolor laboriosam. Ex, nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vero ab, vitae suscipit possimus molestias nisi libero quam dignissimos perferendis quis error illo in temporibus distinctio cum mollitia facere odio?</p>
+            <p>O Paris Saint-Germain, de Mbappé e Neymar, inicia um reinado que também deverá ser longo. O tricampeonato neste ano veio durante a pandemia, que suspendeu a disputa a 11 rodadas do fim. Mesmo assim, a vantagem da equipe da capital era de 12 pontos para o Olympique de Marselha, o segundo colocado.</p>
+
+            <p>Na Espanha, o eterno duelo entre Real Madrid e Barcelona torna a campeonato cada vez mais previsível. O time de Zinedine Zidane evitou o tri do rival e acumulou o 34º troféu, contra 26 dos catalães. Nesta temporada, o Atlético de Madrid, que desbancou o campeão mundial Liverpool na Liga dos Campeões, ficou mais uma vez em terceiro e segue com seus dez títulos nacionais.</p>
+
+            <p>Na Inglaterra, onde o equilíbrio era tradicionalmente maior, começa a polarizar as conquistas nas mãos de Liverpool e Manchester City. O grande Manchester United, líder na quantidade de títulos, com 20 - um a mais do que a equipe da terra dos Beatles -, não ganha desde 2012/2013, enquanto o Arsenal já acumula um jejum de quase duas décadas. Entre os treinadores, a dupla Pep Guardiola e Klopp chama toda a atenção. Klopp foi eleito o melhor da temporada com seu Liverpool.</p>
 
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+                 
+            } else {
+                    itens.style.display = 'block'
+                }
+             
+        }
+    </script>
 </body>
 </html>

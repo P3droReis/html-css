@@ -8,20 +8,30 @@
 }
 
 body, html {
-    background-color: lightgray;
+    background-color: #F2E7DC;
 }
 
 header {
-    background-color: rgb(148, 148, 148);
+    background-color: #027373;
 }
 
 header > h1 {
     padding: 10px;
     text-align: center;
+    color: white;
+}
+
+.material-symbols-outlined {
+    background-color: #026056;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
@@ -33,26 +43,30 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(87, 87, 87);
+    background-color: #038C7F;
     color: white;
-    border-top: 2px solid grey;
+    border-top: 2px solid #A9D9D0;
 }
 
 menu > ul > li > a:hover{
-    background-color: gray;
+    background-color: #a9d9d07a;
+    color: #027373;
 }
 
 main {
     width: 90vw;
-    background-color: white;
+    background-color: #027373;
+    color: white;
     margin: auto;
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
 }
 
+
 article > h2 {
     padding-bottom: 20px;
+    
 }
 
 article > p {
