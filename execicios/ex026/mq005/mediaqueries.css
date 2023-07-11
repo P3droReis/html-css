@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    
+    #burger {
+        display: none;
+    }
+
+    menu {
+        display: block; 
+    }
+
+    menu > ul > li {
+        display: inline-block;
+        margin-right: 10px;      
+    }
+
+    menu > ul > li > a {
+        border: none;
+    }
+
+    header > h1 {
+        padding-top: 10px ;
+        background-color: #026056 ;
+        border-bottom: 3px solid #A9D9D0;
+    }
+
+    main {
+        width: 768px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
